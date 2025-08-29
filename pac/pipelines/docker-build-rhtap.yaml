@@ -189,8 +189,8 @@ spec:
         - input: $(params.event-type)
           operator: in
           values:
-            - push
             - Push
+            - push
     - name: update-deployment
       params:
         - name: gitops-repo-url
